@@ -45,7 +45,8 @@ body {
   border: none;
   border-radius: 10px;
   padding: .5rem 6rem;
-  text-align: center; }
+  text-align: center;
+  margin-left: 3rem; }
   @media only screen and (max-width: 780px) {
     .header__form input {
       margin: 1.5rem 0; } }

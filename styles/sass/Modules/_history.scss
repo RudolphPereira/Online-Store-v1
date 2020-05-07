@@ -1,0 +1,54 @@
+.history {
+padding: 1rem 2rem 1rem 0;
+@include phone {
+    padding: 0;
+}
+
+}
+
+.history__content {
+display: flex;
+@include phone {
+    flex-direction: column;
+}
+
+}
+
+.history__image--container {
+background-image: url(../../../images/fabric-with-two-buttons-3775379.jpg);
+width: 50%;
+margin-right: 2rem;
+clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+background-attachment: fixed;
+@include phone {
+    padding: 25%;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+}
+
+.history__text {
+width: 50%;
+@include phone {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+}
+
+.history__title {
+font-size: 1.3rem;
+margin-top: 0;
+}
+
+.history__des {
+line-height: 1.2;
+font-size: 1.2rem;
+color: #999;
+@include phone {
+    padding: 0 2rem 0;
+}
+}
+
+    

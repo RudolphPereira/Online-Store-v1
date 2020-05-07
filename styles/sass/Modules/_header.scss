@@ -1,0 +1,35 @@
+.header {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.5)),url(../../../images/high-angle-view-of-shoes-322207.jpg);
+ height: 100vh;   
+ background-attachment: fixed;
+
+
+&__hero-content {
+position: absolute;
+left: 0;right: 0;
+top:35%;
+margin: 0 auto;
+width: 35%;
+text-align: center;
+padding: 1rem 0;
+}
+
+&__title{
+font-size: 3rem;
+color: white;
+@include phone {
+margin: 9.5rem 0 0 0;
+font-size: 2rem;
+}
+}
+
+&__desc {
+font-size: 1.3rem;
+color: white;
+margin-bottom: 2.2rem;
+@include phone {
+font-size: .9rem;
+margin: .5rem;
+}
+}
+}

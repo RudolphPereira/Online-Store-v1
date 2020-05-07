@@ -1,0 +1,77 @@
+.header__buttons {
+a{
+text-decoration: none;
+color: black;
+margin-right: .7rem;
+padding: .7rem 1rem;
+border-radius: 2px;
+@include phone {
+    margin-top: 1rem;
+}
+}
+}
+
+.header__border{
+border: 1px solid white;
+}
+
+.header__solid {
+background-color: white;}
+
+.header{
+&__link {
+text-decoration: none;
+color: black;
+background-color: white;
+padding: .5rem .4rem;
+border-radius: 10px;
+display: inline-block;
+transition: all .5s;
+@include phone {
+font-size: .8rem;
+}
+}
+
+&__link:hover {
+background-color: orange;
+color: white;
+box-shadow: 2px 2px 8px black;}
+}
+
+.category__link {
+text-decoration: none;
+color: black;
+background-color: orange;
+padding: .4rem .8rem;
+display: inline-block;
+border-radius: 5px;
+}
+
+.history__link {
+text-decoration: none;
+color: black;
+background-color: orange;
+padding: .4rem .8rem;
+display: inline-block;
+border-radius: 5px;
+}
+
+.email__button {
+background-color: orange;
+color: white;
+box-shadow: 2px 2px 4px black;
+border-radius: 10px;
+border: none;
+padding: .7rem 1rem;
+width: 6rem;
+margin: 0 auto;
+@include phone {
+    padding: .4rem .5rem;
+    font-size: .6rem;
+}
+
+}
+    
+    
+
+    

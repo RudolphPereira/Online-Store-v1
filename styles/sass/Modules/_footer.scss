@@ -1,0 +1,23 @@
+.footer {
+padding: 4rem;
+background-color: orange;
+display: flex;
+justify-content: space-around;
+@include phone {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.footer__list {
+list-style: none;
+}
+
+.footer__item {
+margin: .5rem 0;
+}
+
+.footer__link {
+text-decoration: none;
+color: black;
+}

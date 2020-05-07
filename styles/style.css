@@ -51,7 +51,7 @@ body {
       margin: 1.5rem 0; } }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.5)), url(./../images/high-angle-view-of-shoes-322207.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.5)), url("./../images/high-angle-view-of-shoes-322207.jpg");
   height: 100vh;
   background-attachment: fixed; }
   .header__hero-content {
@@ -228,7 +228,7 @@ body {
       flex-direction: column; } }
 
 .history__image--container {
-  background-image: url(./../images/fabric-with-two-buttons-3775379.jpg);
+  background-image: url("./../images/fabric-with-two-buttons-3775379.jpg");
   width: 50%;
   margin-right: 2rem;
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
